@@ -12,7 +12,7 @@ function getDoseURL(text, date) {
 
 function errorHandler(error) {
     console.log("error occured", error);
-    alert("Something wrong with the server! try again after some time")
+    alert("No slots available for the entered pincode and date. Pleae enter some other value")
 }
 
 function clickHandler() {
