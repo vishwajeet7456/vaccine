@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaccine Slots</title>
+
+    <style>
+        textarea {
+            width: 80%;
+            height: 3vh;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        #output {
+            border: 1px solid black;
+            width: 80%;
+            height: 10vh;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #btn-search {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vaccine Slots</h1>
+    <div>
+        <textarea id="txt-input" placeholder="Enter Pincode"></textarea>
+        <textarea id="txt-date" placeholder="Enter Date: dd/mm/yyyy"></textarea>
+        <button id="btn-search">Search</button>
+    </div>
+    <div style="font-size: larger; text-align: center;">Slots will come here 👇</div>
+    <div id="output"></div>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>
